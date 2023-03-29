@@ -1,0 +1,119 @@
+/* container */
+.ghg{
+  background-color:#D9D9D9;
+  height:600px;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 10;
+ 
+  
+  
+  
+}
+/* user container*/
+.tgt{
+  background-color:grey;
+  border-radius:5px;
+  
+  
+
+}
+/*nav bar*/
+.nav-link{
+  color:#000000;
+}
+.nav-link:hover{
+  color:#000000;
+}
+/* content box*/
+.fig{
+  background-color: #fefefe;
+  text-align: center;
+  top:50px;
+  margin-top:60px;
+ 
+  
+ /*user name password*/ 
+  
+  }
+  .usernam{
+    height:52px;
+    padding-left:30px;
+    margin-top:20px;
+    left:-290;
+    border-radius:10px;
+    border:none;
+    background-color:
+    #D9D9D9;
+   }
+    /*for submit button*/
+  .thgt{
+      border:none;
+      margin-top:20px;
+      color:
+      #000000;
+      font-weight:400;
+      font-size:24px;
+      border-radius:10px;
+      background-color:#B2B0B0;
+      
+    /*media query for submit*/  
+  }
+  @media screen and (min-width: 280px) and (max-width:667px){
+      .thgt {
+        font-size: 17px;
+      }
+  }
+ /*place holder*/
+  ::placeholder{
+      color:white;
+  }
+  /*please signup signin*/
+  .tmt{
+     font-Weight:400;
+     font-Size:36px;
+/*signin */
+  }
+  .tlc{
+      font-size:24px;
+      border:none;
+      margin-top:20px;
+      color:
+      #000000;
+      font-weight:400;
+      border-radius:10px;
+      background-color:#B2B0B0;
+      width:202px;
+  }
+  /*sign in*/
+  @media screen and (min-width: 280px) and (max-width:667px) {
+     .tlc {
+        font-size: 19px;
+        width:110px;
+      }
+    }
+    .phj{
+      margin-top:90px;
+    }
+    .jhk{
+      background-color:#D9D9D9;
+    }
+    .active{
+      margin-left: -1551px;
+  position: relative;
+}
+/*cloose for content div*/
+.close:hover,
+.close:focus {
+color: #000;
+text-decoration: none;
+cursor: pointer;
+margin-right:auto;
+}
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+    
+
